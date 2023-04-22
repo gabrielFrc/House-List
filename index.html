@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="house-add">
+        <h1 style="text-align: center;">Casas</h1>
+        <form id="homes">
+            <p>
+                <label>Número da residência: </label><br>
+                <input type="number" name="house-number">
+            </p>
+            <p>
+                <label>Bairro: </label><br>
+                <input type="text" name="house-address">
+            </p>
+            <p>
+                <label>Cidade: </label><br>
+                <input type="text" name="house-city">
+            </p>
+            <p>
+                <label>Área: </label><br>
+                <input type="number" name="house-area">
+            </p>
+        </form>
+        <button onclick="addHouseToList()">Adicionar</button>
+    </section>
+
+    <section class="houses-added">
+    </section>
+
+    <footer>
+        <p>Website made by Gabriel França</p>
+    </footer>
+</body>
+</html>

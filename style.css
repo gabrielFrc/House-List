@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url(https://st2.depositphotos.com/1533202/6935/i/450/depositphotos_69357599-stock-photo-blurred-living-room.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+section{
+    text-align: center;
+}
+.house-add{
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 3px black;
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    border-radius: 5px;
+}
+
+section > h1{
+    margin-bottom: 3.5rem;
+    font-size: 3em;
+}
+
+form > p{
+    font-size: 1.2em;
+}
+
+form p > input{
+    margin: 10px 0;
+    color: black;
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form p > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+section > button{
+    margin-top: 1.5rem;
+    color: black;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+section > button:hover{
+    background-color: #FF3366;
+}
+section.houses-added{
+    min-height: 200px;
+}
+.is-inline{
+    display: inline-block;
+    margin: 15px;
+    min-width: 15rem;
+    padding: 3rem 0;
+    background-color: #483C46;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.remove-button{
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    color: black;
+}
+.remove-button:hover{
+    background-color: #FF3366;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 25px 0;
+    margin-top: 32px;
+    text-align: center;
+}
